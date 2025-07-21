@@ -1,0 +1,38 @@
+# Core LangChain dependencies
+langchain
+langchain-core
+langchain-community
+
+# LangChain integrations (providers accessed through LangChain)
+langchain-openai  # OpenAI integration through LangChain
+langchain-groq    # Groq integration through LangChain
+langchain-huggingface  # For HuggingFace models through LangChain
+
+# Web scraping (used by LangChain document loaders)
+beautifulsoup4
+requests
+lxml
+
+# Vector stores (accessed through LangChain vectorstores module)
+langchain-chroma  # ChromaDB integration through LangChain
+faiss-cpu         # Required by LangChain's FAISS vectorstore
+
+# Local embeddings option
+sentence-transformers  # For local embedding models
+
+# UI
+streamlit
+
+# Database
+sqlalchemy>=1.4.0,<2.0.0
+psycopg2-binary
+alembic
+
+# Utilities
+python-dotenv
+tqdm
+pydantic
+
+# Testing
+pytest
+pytest-cov
